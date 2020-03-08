@@ -1,0 +1,225 @@
+html, body, #header, h1{
+    margin: 0;
+}
+body{
+    overflow: hidden;
+}
+html{
+    height: 100%;
+}
+
+#wrapper{
+    min-height: 100%;
+}
+#innerWrapper{
+    overflow: auto;
+    padding-bottom: 80px;
+}
+
+#header header{
+    width: 100%;
+    height: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ed1165;
+    color: white;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+header h1{
+    float: left;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 8;
+}
+
+#loginForm{
+    width: 300px;
+    background-color: #ed1165;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    margin-left: 20px;
+    float: left;
+    margin-bottom: 20px;
+}
+#loginSection, #createSection{
+    text-align: center;
+
+}
+.textBoxes, .passwordBoxes{
+    padding: 10px;
+    width: 275px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.submitButtons, .buttonButtons{
+    width: 110px;
+    margin-top: 35px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    background-color: white;
+    transition: 2s;
+}
+.buttonButtons{
+    width: 110px;
+    margin-top: 35px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    float: right;
+}
+.submitButtons:hover, .buttonButtons:hover{
+    background-color: #ed1165;
+    color: white;
+}
+#logOutButton{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ed1165;
+    color: white;
+}
+
+#loginSection h1, #createSection h1{
+    margin-bottom: 20px;
+}
+#loginSection p, #createSection p{
+    text-align: left;
+    margin-top: 10px;
+   margin-bottom: 6px;
+}
+#createSection #fileBox{
+    padding: 10px;
+    background-color: white;
+}
+
+#userArea{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 120px;
+    float: left;
+}
+#userArea input{
+    padding: 2px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#userArea input[type=submit]{
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    transition: 2s;
+}
+#userArea input[type=submit]:hover{
+    background-color: grey;
+    color: white;
+}
+#userArea select{
+    padding: 10px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#userArea h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#map{
+    margin: 0 auto;
+    border-radius: 10px;  
+    margin-bottom: 120px;
+}
+
+#footer{
+    background-color: #ed1165;
+    height: 110px;
+    padding: 20px;
+    color: white;
+    bottom: 0;
+}
+#footer p{
+    font-size: 20px;
+    position: relative;
+    height: 80px;
+}
+
+#faq, #dark{
+    background-color: #ed1165;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    transition: color 1.5s;
+    margin-left: 50px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#faq:hover{
+    color: black;
+}
+
+
+#helpSection{
+    text-align: left;
+    margin-left: 30px;
+}
+
+#popUp{
+    width: 100%;
+    height: calc(100vh - 170px);
+    background-color: black;
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#popUp h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+#popUp h1 #button{
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #ed1165;
+    padding: 10px;
+    transition: 2s;
+}
+#popUp h1 #button:hover{
+    color: black;
+    background-color: white;
+}
