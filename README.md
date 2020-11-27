@@ -1,2 +1,5 @@
 # UniMaps-Year2-Project
- This is a project for year two at univeristy I was tasked as a part of a team to create an application that does something. My idea was a map that would show you the way around the university campus. I was set the task of programming the application. This uses PHP and PHPMyAdmin. Authentication key has been removed and a new one must be inserted.
+This was a project that I was the lead programmer for in my second year of university.
+The project was to create a website that could direct new students or parents from their current locations to what ever building they were trying to get to.
+The project uses PHP and SQL to store and use the buildings longtitude and latitude data. 
+I used google maps api to display the directions to the user.
