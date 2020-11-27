@@ -134,7 +134,7 @@
         </div>
 
     <script src="External/script.js" type="text/javascript"></script> <!--This has to go first as the link below refers to this script immdeiatly-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHuw2x2Ue_6YqulE5Fe-MkEodkdVz7cyY&callback=myMap"></script> <!--This is the link
+    <script src="https://maps.googleapis.com/maps/api/js?key=INSERTGOOGLEAPIKEYHERE&callback=myMap"></script> <!--This is the link
     too googles services that allows me to use maps, using my api key-->
     <?php
         //This is to see if the user will allow location use!
